@@ -1,0 +1,208 @@
+@font-face {
+	font-family: 'Futura Light'; 
+	src: url('Futura Light.ttf') format('truetype');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Futura Light'; 
+	src: url('Futura Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+  	background-image: url("bg.png");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+  	font-family: 'Futura Light';
+
+}
+
+.testmark {
+	border: solid 1px black;
+}
+
+.menu-content {
+	position: relative;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+@media screen and (min-width: 1000px) {
+	.menu-content {
+		position: relative;
+		width: 600px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+}
+
+.center-block {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+	margin-bottom: 0;
+}
+
+.logo-image {
+	border-radius: 100%;
+}
+
+.logo-text {
+	text-align: center;
+}
+
+.menu-wrapper {
+	position: relative;
+}
+
+.menu {
+	position: static;
+	text-align: center;
+}
+
+.titletext {
+	color: #303030;
+}
+
+.text-shadow {
+	text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+}
+
+.link:visited,
+.link:link,
+.link:active {
+	color: #303030; 
+	text-decoration: none;
+	transition: .2s;
+}
+
+.link:hover {
+	letter-spacing: 5px;
+}
+
+@media screen and (min-width: 1000px) {
+	.menu {
+		position: absolute;
+		bottom: 0%;
+		left: 10%;
+		right: 20%;
+		text-align: left;
+	}
+}
+
+.links-text {
+	text-align: center;
+	justify-content: center;
+}
+
+.card-bg {
+	position: absolute;
+	top:1em;
+	z-index: -1;
+}
+
+.links {
+	width: 43%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 43px;
+}
+
+.button-link {
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	transition: .2s;
+}
+
+.button-link:hover {
+	width: 42px;
+	height: 42px;
+}
+
+.color-YT {
+	background-color: #dddddd;
+}
+
+.color-DS {
+	background-color: #5c6bc0;
+}
+
+.color-SP {
+	background-color: #1dd05d;
+}
+
+.color-SC {
+	background-color: #f76734;
+}
+
+.demo-section {
+
+}
+
+.separator {
+	margin: 30px;
+}
+
+.project-card {
+	background-color: white;
+}
+
+.project-logo {
+	transition: .5s;
+}
+
+.project-logo:hover {
+	box-shadow: inset 0px 0px 10px black;
+}
+
+.project-desc {
+	padding: 30px;
+}
+
+.text-gold {
+	color: 	#FF8C00;
+}
+
+.project-link {
+	background-color: #201d29;
+	border-radius: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.project-link:visited,
+.project-link:link,
+.project-link:active {
+	color: #c27a0e;
+}
+
+.project-link:hover {
+	text-decoration: none;
+}
+
+.perks {
+	padding-bottom: 30px;
+}
+
+.perks-cards {
+	width: 80%;
+}
