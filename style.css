@@ -92,6 +92,11 @@ body {
 	letter-spacing: 5px;
 }
 
+.link-dead{
+	color: #525252; 
+	text-decoration: none;
+}
+
 @media screen and (min-width: 1000px) {
 	.menu {
 		position: absolute;
